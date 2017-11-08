@@ -1,0 +1,22 @@
+{  
+  "compilerOptions": {    
+    "target": "es6",                              
+    "module": "commonjs",                                                                    
+    "moduleResolution": "node",         
+    "lib": ["es6", "es2015.generator"],                                                     
+    "outDir": "./build",                                     
+    "importHelpers": true,                                 
+    "strict": true,                               
+    "typeRoots": ["node_modules/@types"],                           
+    "types": ["node"],                               
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true                                        
+  },  
+  "include": [    
+    "**/*"  
+  ],  
+  "exclude": [    
+    "node_modules",    
+    "**/*.spec.ts"  
+  ]
+}
